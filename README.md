@@ -22,7 +22,8 @@ First create a Key-pair for EMR cluster and download .pem key. We will need it l
 
 3. We must fill in respective sections:
 
-```General Configuratin -> Cluster Name 
+```
+   General Configuratin -> Cluster Name 
    Software Configuration-> EMR 5.33 , do select 'Spark: Spark 2.4.7 on Hadoop 2.10.1 YARN and Zeppelin 0.9.0' option menu.
    Harware Configuration -> Make instance count as 4
    Security Access -> Provide .pem key created in above step.
