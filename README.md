@@ -25,9 +25,9 @@ First create a Key-pair for EMR cluster and download .pem key. We will need it l
 ```
    General Configuratin -> Cluster Name 
    Software Configuration-> EMR 5.33 , do select 'Spark: Spark 2.4.7 on Hadoop 2.10.1 YARN and Zeppelin 0.9.0' option menu.
-   Harware Configuration -> Make instance count as 4
-   Security Access -> Provide .pem key created in above step.
-   Rest of parameters can be left default.
+   Harware Configuration -> Make instance count as 4 1 master 3 slaves
+   Security Access -> Provide .pem key.
+   
  ```
  4. If the cluster status is 'waiting' we can know successful cluster creation is done.
  ### Task 2: Parallel training on 4 ec2 Instances
