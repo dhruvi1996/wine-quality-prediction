@@ -19,6 +19,7 @@ Project also uses Docker to create a container for trained machine learning mode
 ## Docker run instructions
 ````
 docker pull dhruvi11/aws-winepredictionmodel
+docker run dhruvi11/aws-winepredictionmodel
 docker run --platform=linux/amd64 dhruvi11/aws-winepredictionmodel testFilePath
 
 Docker run -v [fullLocalPath of TestDataset.csv: data/TestDataset.csv ]  dhruvi11/aws-winepredictionmodel
