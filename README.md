@@ -6,7 +6,7 @@ Project also uses Docker to create a container for trained machine learning mode
 
 ## Full Readme
 Detailed step by step readme document is found here 
-* [Readme word](https://github.com/dhruvi1996/wine-quality-prediction.git)
+* [Readme word](https://github.com/dhruvi1996/wine-quality-prediction/blob/main/readme%20steps%20.pdf)
 ## Docker image link
 * [Docker image : dhruvi11/aws-winepredictionmodel](https://hub.docker.com/repository/docker/dhruvi11/aws-winepredictionmodel)
 
